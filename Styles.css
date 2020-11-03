@@ -1,3 +1,66 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  display: grid;
+  grid-template-areas:
+    "box1"
+    "box2"
+    "footer";
+}
+.box1 {
+  width: 100%;
+  height: 12rem;
+  grid-area: box1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 header {
-  background-color: orange;
+  background-image: url("Skjermbilde\ 2020-11-03\ kl.\ 15.21.55.png");
+  background-repeat: no-repeat;
+}
+.flex1 {
+  width: 20%;
+  height: 12rem;
+  display: flex;
+  flex-direction: column;
+}
+.button {
+  background-color: #ff6c00;
+  color: white;
+  border: 2px solid;
+  padding: 5px;
+  font-size: 2rem;
+  border-radius: 25px;
+  margin-top: 30px;
+  margin-left: 25%;
+  width: 50%;
+}
+.flex2 {
+  width: 10%;
+  height: 12rem;
+}
+.flex3 {
+  width: 50%;
+  height: 12rem;
+}
+.box2 {
+  width: 100%;
+  height: 80rem;
+  grid-area: box2;
+  display: flex;
+  flex-direction: row;
+}
+.ContainerOne {
+  width: 40%;
+  height: 80rem;
+  background-color: blue;
+}
+.ContainerTwo {
+  width: 60%;
+  height: 80rem;
+  background-color: red;
 }
