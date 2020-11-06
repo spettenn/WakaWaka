@@ -72,18 +72,34 @@ header {
 }
 .box2 {
   width: 100%;
-  height: 80rem;
+  height: 60rem;
   grid-area: box2;
   display: flex;
   flex-direction: row;
 }
 .ContainerOne {
   width: 40%;
-  height: 80rem;
+  height: 60rem;
   background-color: blue;
+}
+.filler {
 }
 .ContainerTwo {
   width: 60%;
-  height: 80rem;
-  background-color: red;
+  height: 60rem;
+
+  position: relative;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  background-size: cover;
+  overflow: hidden;
 }
